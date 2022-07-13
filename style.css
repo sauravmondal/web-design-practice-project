@@ -1,0 +1,155 @@
+/* RESET CODE*/
+*{
+	margin:0;
+	padding:0;
+}
+
+/*-------------------
+    first
+--------------------*/
+#first{
+	background-color: #d2edef;
+}
+.container{
+	max-width:1170px;
+	margin:0 auto;
+	padding: 25px 0;
+	overflow:hidden;
+}
+.full-width{
+	
+}
+.logo{
+	float:left;
+	width:20%;
+}
+.menu{
+	/* width:80%; */
+}
+.menu ul{
+	float:right;
+	margin-top: 35px;
+}
+.menu ul li{
+	list-style:none;
+	float:left;
+	padding:10px;
+	margin-bottom: 20px;
+}
+.menu ul li a{
+	font-size:20px;
+	padding:10px 15px;
+	text-decoration:none;
+	color:white;
+	background:black;
+}
+.menu ul li a:hover{
+	background:#6650A8;
+	color:#fff;
+}
+
+
+/*-------------------
+    second-section
+--------------------*/
+#second-section{
+	background:url(images/cover_nature.jpg)no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+	padding:100px 0;
+}
+.content{
+	text-align:center;
+	color: aqua;
+}
+.content h2{
+	font-size:60px;
+	font-style:italic;
+	padding-bottom:20px;
+}
+.content p{
+	font-size:25px;
+}
+
+
+/*-------------------
+    third-section
+--------------------*/
+#third-section{
+	padding-bottom:50px;
+}
+.section-top{
+	padding:40px 0;
+	text-align:center;
+}
+.section-top h2{
+	font-size:40px;
+	color:gray;
+	text-shadow:1px 2px 1px black;
+}
+.section-top p{
+	font-size:20px;
+	color:black;
+}
+.third-content{
+
+}
+.content-content{
+	max-width:33%;
+	margin-bottom: 20px;
+	float:left;
+	text-align:center;
+}
+.content-content h2{
+	color:gray;
+	text-shadow:1px 2px 1px black;
+}
+
+
+/*-------------------
+    fourth-section
+--------------------*/
+#fourth-section{
+	padding:40px;
+	background:url(images/nature_cover.jpg) no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+}
+.fourth-top{
+	text-align:center;
+	color:#fff;
+}
+.fourth-top h2{
+	font-size:40px;
+}
+.fourth-top p{
+	font-size:20px;
+	padding-bottom:40px;
+}
+.fourth-content{
+
+}
+.fourth{
+	max-width:25%;
+	margin-bottom: 20px;
+	float:left;
+	text-align:center;
+	margin-left:80px;
+	color:#fff;
+}
+.fourth img{
+	 border-radius:50%;
+}
+
+
+/*-------------------
+    footer
+--------------------*/
+#footer{
+	background:#000;
+	color:#fff;
+	padding:20px;
+	text-align:center;
+}
